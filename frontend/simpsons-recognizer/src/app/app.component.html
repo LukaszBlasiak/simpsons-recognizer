@@ -1,0 +1,14 @@
+<link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet'>
+<div class="main-container">
+  <image-upload
+    url="localhost"
+    buttonCaption="WYBIERZ ZDJĘCIE Z SIMPSONAMI"
+    dropBoxMessage="LUB UPUŚĆ ZDJĘCIE TUTAJ"
+    clearButtonCaption="WYCZYŚĆ"
+    (uploadFinished)="onUploadFinished($event)"
+    [class]="'image-input'"
+  >
+  </image-upload>
+  <!--<router-outlet></router-outlet>-->
+
+</div>

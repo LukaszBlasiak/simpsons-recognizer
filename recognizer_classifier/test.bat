@@ -1,0 +1,1 @@
+python classify.py images/bart/bart_test_image_0068.jpg
